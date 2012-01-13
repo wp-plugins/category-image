@@ -68,3 +68,13 @@ function categoryimagesave($term_id){
             update_option('_category_image'.$term_id,$_POST['tag-image'] );
     }
 }
+
+
+function print_image(){
+    $_terms = wp_get_post_terms(get_the_ID(),$texonomy_slug); 
+    $_termsidlist=array();                                          
+    foreach($_terms as $val){    
+        echo '<div style="float:left; margin-right:2px;"><a href="'.get_term_link($val).'"><img height="22px" title="'.$val->name.'" alt="'.$val->name.'" src="'.get_option('category_image'.$val->term_id).'" /></a></div>';    
+    }
+}
+?>
