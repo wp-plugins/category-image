@@ -5,7 +5,7 @@
  * Licensed under the MIT License: http://www.opensource.org/licenses/mit-license.php
 */
 		  
-var tb_pathToImage = "http://127.0.0.1/mobicules/wp-includes/js/thickbox/loadingAnimation.gif";
+var tb_pathToImage = "/wp-includes/js/thickbox/loadingAnimation.gif";
 /*!!!!!!!!!!!!!!!!! edit below this line at your own risk !!!!!!!!!!!!!!!!!!!!!!!*/
 /*
  * Thickbox 3.1 - One Box To Rule Them All.

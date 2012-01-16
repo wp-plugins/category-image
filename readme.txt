@@ -1,15 +1,19 @@
 === Category Image ===
 Contributors: pankajanupam
-Tags: Category Image, admin, texonomy
+Tags: Category Image, admin, texonomy image, category icon
 Requires at least: 2.8
 Tested up to: 3.3.1
-Stable tag: 1.2
+Stable tag: 1.3
 
 The Category Image Plugin allow you to add image with category.
 
 == Description ==
 
 The Category Image Plugin allow you to add image with category.
+
+Use sortcode [print-image] to display category images.
+
+You can also use this <?php echo print_image_function(); ?> any where in your template.
 
 == Installation ==
 
@@ -48,6 +52,12 @@ None
 None
 
 == Changelog ==
+
+= 1.3 =
+add shortcode support [print-image]
+
+= 1.2 =
+javascript bug fix
 
 = 1.1 =
 javascript bug fix
