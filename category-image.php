@@ -7,7 +7,9 @@ Author: PANKAJ ANUPAM
 Version: 1.3
 Author URI: http://pankajanupam.in/
 */
-
+?>
+<?php
+global $texonomy_slug;
 $texonomy_slug='category'; // texonomy slug
 
 add_action($texonomy_slug.'_add_form_fields','categoryimage');
@@ -71,6 +73,7 @@ function categoryimagesave($term_id){
 
 
 function print_image_function(){
+    $texonomy_slug='category';
     $_terms = wp_get_post_terms(get_the_ID(),$texonomy_slug); 
     $_termsidlist=array();  
     $result = '';
