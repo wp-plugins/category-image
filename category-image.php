@@ -4,7 +4,7 @@ Plugin Name: Category Image
 Plugin URI: http://pankajanupam.in/wordpress-plugin/category-image
 Description: The Category Image Plugin allow you to add image with category.
 Author: PANKAJ ANUPAM
-Version: 1.3
+Version: 1.5
 Author URI: http://pankajanupam.in/
 */
 ?>
@@ -78,7 +78,7 @@ function print_image_function(){
     $_termsidlist=array();  
     $result = '';
     foreach($_terms as $val){    
-        $result .= '<div style="float:left; margin-right:2px;"><a href="'.get_term_link($val).'"><img height="22px" title="'.$val->name.'" alt="'.$val->name.'" src="'.get_option('category_image'.$val->term_id).'" /></a></div>';    
+        $result .= '<div style="float:left; margin-right:2px;"><a href="'.get_term_link($val).'"><img height="22px" title="'.$val->name.'" alt="'.$val->name.'" src="'.get_option('_category_image'.$val->term_id).'" /></a></div>';    
     }
     return $result;
 }
