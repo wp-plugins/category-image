@@ -2,7 +2,7 @@
 Contributors: pankajanupam
 Tags: Category Image, admin, texonomy image, category icon
 Requires at least: 2.8
-Tested up to: 3.3.1
+Tested up to: 4.1
 Stable tag: 1.4
 
 The Category Image Plugin allow you to add image with category.
@@ -52,6 +52,15 @@ None
 None
 
 == Changelog ==
+
+= 2.0 =
+add support tag
+
+= 1.5 =
+add support tag
+
+= 1.4 =
+add support tag
 
 = 1.3 =
 add shortcode support [print-image]

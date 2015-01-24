@@ -1,14 +1,13 @@
 <?php
 /*
 Plugin Name: Category Image
-Plugin URI: http://pankajanupam.in/wordpress-plugin/category-image
+Plugin URI: http://pankajanupam.com/wordpress-plugin/category-image
 Description: The Category Image Plugin allow you to add image with category.
-Author: PANKAJ ANUPAM
-Version: 1.5
-Author URI: http://pankajanupam.in/
+Author: BigBrother
+Version: 2.0
+Author URI: http://pankajanupam.com/
 */
-?>
-<?php
+
 global $texonomy_slug;
 $texonomy_slug='category'; // texonomy slug
 
